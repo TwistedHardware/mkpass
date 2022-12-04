@@ -15,14 +15,14 @@ func main() {
 }
 ```
 
-To use this as a CLI tool, first you need to install it:
+To use this as a CLI tool, first, you need to install it:
 
 ```bash
-go install github.com/twistedhardware/mkpass@v0.1.0
+go install github.com/twistedhardware/mkpass/cmd/makepass@v0.2.0
 ```
 
 Then you can generate a password:
 
 ```bash
-mkpass
+makepass
 ```
