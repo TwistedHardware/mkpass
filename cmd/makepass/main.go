@@ -10,7 +10,6 @@ import (
 )
 
 func main() {
-	fmt.Printf("%#v\n", os.Args)
 	length := 5
 	passType := "words"
 
